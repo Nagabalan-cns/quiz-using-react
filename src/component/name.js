@@ -11,7 +11,7 @@ const [name , setname] = useState()
     <div className='entry'>
     <h3>Enter YOUR NAME</h3>
     <input type="text"  value={name}  onChange={ (e) => setname(e.target.value)}></input><br />
-    < button className="sub"onClick={props.enter}>Submit{name}</button>
+    < button className="sub"onClick={props.enter}>Submit</button>
     
     
  </div>
